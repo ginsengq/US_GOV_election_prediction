@@ -1,0 +1,9 @@
+# Что НЕ отправлять в Docker при сборке: образу это не нужно, а сборка будет медленнее.
+.git
+.venv
+venv
+__pycache__
+*.pyc
+.ipynb_checkpoints
+notebooks
+data/raw

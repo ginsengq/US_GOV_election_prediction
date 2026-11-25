@@ -1,0 +1,5 @@
+# Всё для API + библиотеки для ноутбуков (графики и Jupyter-ядро).
+# Установка: pip install -r requirements-notebooks.txt
+-r requirements.txt
+matplotlib==3.10.0
+ipykernel==7.2.0
