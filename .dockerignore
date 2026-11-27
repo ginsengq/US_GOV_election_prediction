@@ -7,3 +7,5 @@ __pycache__
 .ipynb_checkpoints
 notebooks
 data/raw
+mlflow.db
+mlruns

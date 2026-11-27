@@ -2,3 +2,4 @@
 -r requirements.txt
 matplotlib==3.10.0
 ipykernel==7.2.0
+mlflow==3.18.0

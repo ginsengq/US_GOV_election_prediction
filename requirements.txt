@@ -6,6 +6,3 @@ joblib==1.5.3
 # API
 fastapi==0.165.0
 uvicorn==0.54.0
-
-matplotlib==3.10.0
-ipykernel==7.2.0

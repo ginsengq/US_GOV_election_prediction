@@ -4,3 +4,10 @@ __pycache__/
 venv/
 .pytest_cache/
 .ipynb_checkpoints/
+
+# MLflow: локальная база запусков и файлы моделей (создаются ноутбуком 04, пути в них привязаны к этому компьютеру)
+mlflow.db
+mlruns/
+
+# локальные настройки Claude Code
+.claude/
