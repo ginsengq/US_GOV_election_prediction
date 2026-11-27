@@ -152,3 +152,5 @@ docker compose up --build
 Откройте http://127.0.0.1:8501 — Streamlit; API и Swagger доступны на http://127.0.0.1:8000 и http://127.0.0.1:8000/docs. Compose дождётся готовности API перед запуском интерфейса. Остановить сервисы: `docker compose down`.
 
 Для локального запуска интерфейса без Docker сначала запустите API, затем установите `pip install -r requirements-streamlit.txt` и выполните `streamlit run streamlit_app.py`. По умолчанию интерфейс ищет API на `http://localhost:8000`; адрес можно изменить переменной окружения `API_URL`.
+
+Если порты 8000 или 8501 уже заняты, можно переопределить опубликованные порты Compose через `API_PORT` и `STREAMLIT_PORT` (например, `API_PORT=8001`, `STREAMLIT_PORT=8502`). В Windows PowerShell задайте их перед запуском: `$env:API_PORT="8001"; $env:STREAMLIT_PORT="8502"; docker compose up --build`.
